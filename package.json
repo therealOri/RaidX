@@ -1,0 +1,8 @@
+{
+"name": "RaidX",
+"version": "1.0.9",
+"description": "My Anti-Raid Discord Bot",
+"main": "bot.js",
+"author": "Ori",
+"dependencies": {}
+}
