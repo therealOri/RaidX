@@ -8,14 +8,14 @@ var tools = require("discord-anti-spam");
 
  
 tools(client, {
-  warnBuffer: 3, 
-  maxBuffer: 5,
-  interval: 1000,
+  warnBuffer: 0, 
+  maxBuffer: 0,
+  interval: 0000
   warningMessage: "Stop spamming!", 
   banMessage: "has been banned for spamming, anyone else?",
-  maxDuplicatesWarning : 5, 
-  maxDuplicatesBan: 8,
-  deleteMessagesAfterBanForPastDays: 7
+  maxDuplicatesWarning : 0, 
+  maxDuplicatesBan: 0,
+  deleteMessagesAfterBanForPastDays: 0
 });
 
 console.log(' Bot Is Online')
