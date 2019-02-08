@@ -1,9 +1,7 @@
 const Discord = require('discord.js');
-const fs = require("fs");
 const prefix = /^\-/g; //- is customizable, ex: /^\$/g would make the prefix $
 const auth = require('./auth.json');
 const client = new Discord.Client();
-const authors = [];
 var tools = require("discord-anti-spam");
 
  
