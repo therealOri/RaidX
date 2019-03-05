@@ -25,9 +25,6 @@ client.on('ready', () => {
   client.user.setStatus("Online");
 });
 
-//login here
-client.login(auth.token);
-
 
 client.on("error", () => {});
 client.on('message', async(message) => {
@@ -41,7 +38,7 @@ client.on('message', async(message) => {
 			case "status":
             message.channel.startTyping();
             setTimeout(function() {
-                message.channel.send("***Online | Version 1.1.0***");
+                message.channel.send("***Online | Version 1.1.3***");
             }, 500);
             message.channel.stopTyping();
             break;
@@ -105,3 +102,6 @@ client.on('message', async(message) => {
     }
 }
 });
+
+//login here
+client.login(process.env.BOT_TOKEN);
