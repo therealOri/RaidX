@@ -26,7 +26,7 @@ client.on('ready', () => {
 });
 
 //login here
-client.login(process.env.BOT_TOKEN);//where BOT_TOKEN is the token of our bot
+client.login(process.env.NTM3MTI2MjE5MDk1NzM2MzUx.D2BT3Q.Poolpd0IjbdsBG8ViSV0eszFRtI);//where BOT_TOKEN is the token of our bot
 
 
 
